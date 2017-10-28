@@ -7,7 +7,7 @@ module.exports = function (arr) {
         throw new TypeError('Expected an array')
     }
 
-    return new Proxy(arr, {
+    const handler = {
         get: function (target, prop) {
             if (!isNegativeIntegerString(prop)) {
                 return target[prop]
@@ -24,7 +24,9 @@ module.exports = function (arr) {
             prop = parseInt(prop)
             return target[prop < 0 ? target.length + prop : prop] = val
         }
-    })
+    }
+
+    return new Proxy(arr, handler)
 
     function isNegativeIntegerString(str) {
         return /^-[0-9]+$/.test(str)
