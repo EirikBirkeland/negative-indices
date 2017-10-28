@@ -1,6 +1,6 @@
 {
   "name": "negative-indices",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Extends arrays with support for negative indices. Uses ES6 Proxy.",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/EirikBirkeland/negative-indices/issues"
   },
-  "homepage": "https://github.com/EirikBirkeland/negative-indices#readme"
+  "homepage": "https://github.com/EirikBirkeland/negative-indices#readme",
+  "devDependencies": {
+    "ava": "^0.23.0"
+  }
 }
