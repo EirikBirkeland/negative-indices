@@ -1,0 +1,29 @@
+{
+  "name": "negative-indices",
+  "version": "0.0.1",
+  "description": "Extends arrays with support for negative indices. Uses ES6 Proxy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EirikBirkeland/negative-indices.git"
+  },
+  "keywords": [
+    "negative",
+    "indices",
+    "array",
+    "extensions",
+    "array",
+    "subclassing",
+    "Python-style",
+    "arrays"
+  ],
+  "author": "Eirik Birkeland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EirikBirkeland/negative-indices/issues"
+  },
+  "homepage": "https://github.com/EirikBirkeland/negative-indices#readme"
+}
