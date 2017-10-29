@@ -11,14 +11,13 @@
     "url": "git+https://github.com/EirikBirkeland/negative-indices.git"
   },
   "keywords": [
-    "negative",
+    "negative indices",
     "indices",
     "array",
     "extensions",
     "array",
     "subclassing",
-    "Python-style",
-    "arrays"
+    "Python-style"
   ],
   "author": "Eirik Birkeland",
   "license": "ISC",
