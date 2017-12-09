@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/EirikBirkeland/negative-indices#readme",
   "devDependencies": {
-    "ava": "^0.23.0"
+    "ava": "^0.24.0"
   }
 }
